@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MarketApp.Domain", "src\Mar
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MarketApp.Application", "src\MarketApp.Application\MarketApp.Application.csproj", "{90D88AC2-D696-4CF9-B611-BD25AEA305F2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MarketApp.Infrastructure", "src\MarketApp.Infrastructure\MarketApp.Infrastructure.csproj", "{AD67E8B1-7E4D-4484-9771-3A0933CFA0BF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MarketApp.API", "src\MarketApp.API\MarketApp.API.csproj", "{DAD90FD0-0F6E-49BA-9870-6238D621201E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -26,9 +30,19 @@ Global
 		{90D88AC2-D696-4CF9-B611-BD25AEA305F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{90D88AC2-D696-4CF9-B611-BD25AEA305F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{90D88AC2-D696-4CF9-B611-BD25AEA305F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD67E8B1-7E4D-4484-9771-3A0933CFA0BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD67E8B1-7E4D-4484-9771-3A0933CFA0BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD67E8B1-7E4D-4484-9771-3A0933CFA0BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD67E8B1-7E4D-4484-9771-3A0933CFA0BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DAD90FD0-0F6E-49BA-9870-6238D621201E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DAD90FD0-0F6E-49BA-9870-6238D621201E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DAD90FD0-0F6E-49BA-9870-6238D621201E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DAD90FD0-0F6E-49BA-9870-6238D621201E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{45C0C31C-941A-4EAC-B7AD-85301689802E} = {62830F3C-493C-45B3-9D76-302ED45F1DC6}
 		{90D88AC2-D696-4CF9-B611-BD25AEA305F2} = {62830F3C-493C-45B3-9D76-302ED45F1DC6}
+		{AD67E8B1-7E4D-4484-9771-3A0933CFA0BF} = {62830F3C-493C-45B3-9D76-302ED45F1DC6}
+		{DAD90FD0-0F6E-49BA-9870-6238D621201E} = {62830F3C-493C-45B3-9D76-302ED45F1DC6}
 	EndGlobalSection
 EndGlobal
